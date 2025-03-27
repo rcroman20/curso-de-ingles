@@ -1,0 +1,86 @@
+.inicio-container {
+  text-align: center;
+  background-color: #4f46e5;
+  margin: auto;
+  border: 1px solid #ccc;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.content {
+  background-color: #eef2ff;
+  border-radius: 5px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Imagen */
+.illustration {
+  max-width: 500px;
+  height: auto;
+  margin: 20px 10px;
+  border-radius: 5px;
+}
+
+.content p {
+  padding: 15px;
+}
+
+/* TÃ­tulos */
+.content h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+/* Botones */
+.google-login-btn {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.google-login-btn:hover {
+  background-color: #4f46e5;
+  color: #fff;
+  transition: .5s;
+}
+.google-logo {
+  width: 20px;
+  height: 20px;
+}
+.text{
+  color: #000;
+}
+/* Estilos para la barra de notificación */
+.notification-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: yellow;
+  color: #000;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid yellow;
+  z-index: 1000;
+}
+
+.notification-bar p {
+  margin: 0;
+}
+
+.notification-bar p:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,105 @@
+.friend-list-container {
+    width: auto !important;
+    margin: 20px auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 0 100px;
+    text-align: center;
+overflow-y: auto;
+max-height: 300px;
+    
+  }
+  
+  .friend-list-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .friend-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .friend-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    transition: box-shadow 0.2s ease-in-out;
+    border-bottom: 1px solid #000;
+
+  }
+  
+
+  .friend-item.fade-out {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+
+
+  
+  .friend-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .friend-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    object-fit: cover;
+    margin-right: 12px;
+  }
+  
+  .friend-details {
+    text-align: left;
+  }
+  
+  .friend-name {
+    font-weight: bold;
+    font-size: 0.95rem;
+  }
+  
+  .friend-email {
+    font-size: 0.85rem;
+    color: gray;
+  }
+  
+  .follow-button {
+    display: flex;
+    align-items: center;
+    background-color: #0095f6;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+  }
+  
+  .follow-button:hover {
+    background-color: #007cd6;
+  }
+  
+  .follow-button svg {
+    margin-right: 6px;
+  }
+  
+
+
+
+
+
+
+  
+
+
+
+
+  

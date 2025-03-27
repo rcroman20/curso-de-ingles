@@ -1,0 +1,70 @@
+/* Contenedor Principal */
+.documents-container {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    
+  }
+  
+  /* Título */
+  .documents-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Rejilla de 3 filas x 6 columnas */
+  .documents-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+  }
+  
+  /* Tarjeta de Documento */
+  .document-card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .document-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Ícono de Archivo */
+  .icon {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  /* Nombre del Documento */
+  .document-name {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Botón de Descarga */
+  .download-button {
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    transition: background 0.2s;
+  }
+  
+  .download-button:hover {
+    background: #444;
+  }
+  

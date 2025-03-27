@@ -1,0 +1,197 @@
+/* Sidebar Container */
+.sidebar-container {
+    background-color: #ffffff;
+    width: auto; /* Ajuste de ancho para alinearlo a la imagen */
+    padding: 20px;
+    height: 100%;
+    box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+/* User Section */
+.sidebar-container .user-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.statistics {
+    text-align: left;
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+}
+
+.sidebar-container .avatar-img {
+    width: 120px; /* Tamaño reducido para coincidir mejor */
+    height: 120px;
+    background-color: #d1d5db;
+    border-radius: 50%;
+    margin: 10px 0px;
+    object-fit: cover !important;
+    border: 3px solid #4f46e5; /* Borde para resaltar el avatar */
+}
+
+.user-avatar .default-avatar {
+    width: 80px;
+    height: 80px;
+    background-color: #d1d5db;
+    border-radius: 50%;
+}
+
+.sidebar-container .user-greeting {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.sidebar-container .user-message {
+    color: #6b7280;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+/* Statistic Section */
+.sidebar-container .stats-section {
+    background-color: #eef2ff;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 15%;
+}
+
+.sidebar-container .stats-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.sidebar-container .stats-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar-container .stats-icon {
+    color: #4f46e5;
+    font-size: 24px;
+}
+
+.sidebar-container .progress-bar-container {
+    width: 100%;
+    background-color: #e5e7eb;
+    border-radius: 10px;
+    height: 8px;
+    position: relative;
+}
+
+.sidebar-container .progress-fill {
+    background-color: #4f46e5;
+    height: 100%;
+    border-radius: 10px;
+    width: 75%;
+}
+
+.sidebar-container .progress-text {
+    color: #6b7280;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Mentor List */
+.sidebar-container .mentor-list {
+    background-color: #eef2ff;
+    padding: 12px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.sidebar-container .mentor-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sidebar-container .mentor-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-container .mentor-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    padding: 5px 0;
+}
+
+.sidebar-container .mentor-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar-container .mentor-avatar {
+    width: 35px;
+    height: 35px;
+    background-color: #d1d5db;
+    border-radius: 50%;
+}
+
+.sidebar-container .mentor-name {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-container .mentor-role {
+    color: #6b7280;
+    font-size: 12px;
+    margin: 0;
+}
+
+ .mentor-followers{
+    margin: 5px 0 0 0;
+} 
+
+.sidebar-container .follow-button {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000 !important;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.sidebar-container .follow-button:hover {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000 !important;
+transition: .5s;
+
+}
+
+
+
+.mentor-avatar img{
+    width: 50px;
+    height: 40px;
+    background-color: #d1d5db;
+    border-radius: 50%;
+}
+
+
+
