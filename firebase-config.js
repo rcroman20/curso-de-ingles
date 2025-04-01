@@ -7,14 +7,7 @@ import { getDatabase, ref, onValue, set, push, remove } from 'https://www.gstati
 
 // Configuración de Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyBA73ZhHISinShoOZkuAntL1eZ2aU8tcYU",
-  authDomain: "projects-2025.firebaseapp.com",
-  databaseURL: "https://projects-2025-default-rtdb.firebaseio.com",
-  projectId: "projects-2025",
-  storageBucket: "projects-2025.appspot.com", // Corrección aquí
-  messagingSenderId: "481483812804",
-  appId: "1:481483812804:web:7301352cd60d773b1e7e91",
-  measurementId: "G-WXMHEGV7MR"
+
 };
 
 // Inicializar Firebase
